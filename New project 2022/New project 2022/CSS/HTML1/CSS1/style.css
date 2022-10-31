@@ -1,0 +1,11 @@
+  /* ❌ Не вирішує завдання */
+.menu > li {
+    border: 1px solid tomato;
+    
+  }
+  /* ✅ Те, що потрібно */
+.menu > li {
+    border: 1px solid tomato;
+    
+  }
+  
