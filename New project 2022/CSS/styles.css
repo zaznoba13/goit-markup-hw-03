@@ -132,7 +132,7 @@ text-decoration: none;
     color: crimson;
 }
 /* main */
-.section {
+.bg {
     position: absolute;
 width: 1600px;
 height: 600px;
@@ -142,7 +142,7 @@ top: 80px;
 background: #2F303A;
 }
 .title {
-  background: #2F303A;
+  
     position: absolute;
 width: 696px;
 height: 120px;
@@ -173,8 +173,8 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
-.button.primary:hover,
-.button.primary:focus {
+.button:hover,
+.button:focus {
     background-color: #188ce8;
     color:     #FFFFFF; 
   
@@ -343,7 +343,7 @@ letter-spacing: 0.03em;
 color: #212121;
 
  }
- .box1 {
+  .box1 {
    position: absolute;
 width: 370px;
 height: 294px;
@@ -372,7 +372,7 @@ top: 1061px;
 background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
 .section_bag {
-   padding: 1449px;
+   
     position: absolute;
 width: 1600px;
 height: 648px;
@@ -407,8 +407,6 @@ left: 215px;
 top: 1635px;
 
 background: #FFFFFF;
-/* material shadow v1 */
-
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 
@@ -434,7 +432,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 18.75px;
 
 text-align: center;
 letter-spacing: 0.03em;
@@ -452,7 +450,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 18.75px;
 
 text-align: center;
 letter-spacing: 0.03em;
