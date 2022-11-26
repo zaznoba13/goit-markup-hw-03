@@ -168,7 +168,7 @@ width: 200px;
 height: 50px;
 left: 700px;
 top: 430px;
-
+cursor:pointer;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -179,6 +179,7 @@ border-radius: 4px;
     color:     #FFFFFF; 
   
 }
+
 /* Наши преимущества */
 
 .title1 {
@@ -649,4 +650,98 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #757575;
+}
+
+.footer_bag {
+    position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+
+background: #2F303A;
+}
+
+.logo2 {
+    position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 2157px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+
+}
+.accent2 {
+    color: #FFFFFF;
+
+}
+.physical-adress {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2208px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+  }
+
+.mail-to {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2238px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+.mail-to:hover, :focus {
+    color: tomato;
+}
+.tel {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2268px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.tel:hover, :focus {
+    color: tomato;
 }
