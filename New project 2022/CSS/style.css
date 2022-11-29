@@ -131,9 +131,10 @@ background: #FFFFFF;
     .telephon:hover, :focus {
            color: crimson;
         }
-        .
+      
      /* Rectangle 10 */
-     .maine_box {
+
+    .bg {
         position: absolute;
 width: 1170px;
 height: 1360px;
