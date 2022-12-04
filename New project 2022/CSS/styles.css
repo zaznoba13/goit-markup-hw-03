@@ -1,4 +1,8 @@
 /* header */
+.body {
+    font-family: 'Roboto';
+font-style: normal;
+}
 .header {
 position: absolute;
 width: 1600px;
@@ -35,8 +39,7 @@ text-decoration: none;
     left: 453px;
     top: 32px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -55,8 +58,7 @@ text-decoration: none;
     left: 552px;
     top: 32px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -75,8 +77,7 @@ height: 16px;
 left: 679px;
 top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -96,8 +97,6 @@ height: 16px;
 left: 1078px;
 top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -118,8 +117,7 @@ height: 16px;
 left: 1263px;
 top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -149,8 +147,7 @@ height: 120px;
 left: 452px;
 top: 280px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -189,8 +186,7 @@ height: 16px;
 left: 215px;
 top: 774px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
@@ -206,8 +202,7 @@ height: 75px;
 left: 215px;
 top: 800px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -225,8 +220,7 @@ color: #757575;
     left: 515px;
     top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -242,8 +236,7 @@ color: #757575;
     left: 515px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -260,8 +253,7 @@ color: #757575;
         left: 815px;
         top: 774px;
         
-        font-family: 'Roboto';
-        font-style: normal;
+        
         font-weight: 700;
         font-size: 14px;
         line-height: 16px;
@@ -278,8 +270,7 @@ color: #757575;
     left: 815px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -297,8 +288,7 @@ color: #757575;
     left: 1115px;
     top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -315,8 +305,7 @@ color: #757575;
     left: 1115px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -333,8 +322,7 @@ height: 42px;
 left: 612px;
 top: 969px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -389,8 +377,7 @@ height: 42px;
 left: 668px;
 top: 1543px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -429,8 +416,7 @@ height: 19px;
 left: 275px;
 top: 1925px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 18.75px;
@@ -447,8 +433,7 @@ height: 19px;
 left: 285px;
 top: 1954px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 18.75px;
@@ -489,8 +474,7 @@ border-radius: 0px;
     left: 596px;
     top: 1925px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -510,8 +494,6 @@ height: 19px;
 left: 577px;
 top: 1954px;
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
@@ -555,8 +537,7 @@ border-radius: 0px;
     left: 882px;
     top: 1925px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -575,8 +556,7 @@ border-radius: 0px;
     left: 912px;
     top: 1954px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -619,8 +599,7 @@ height: 19px;
 left: 1183px;
 top: 1925px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
@@ -639,8 +618,7 @@ height: 19px;
 left: 1207px;
 top: 1954px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
@@ -692,8 +670,7 @@ color: #2196F3;
     left: 215px;
     top: 2208px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -711,8 +688,7 @@ height: 21px;
 left: 215px;
 top: 2238px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -732,8 +708,7 @@ height: 21px;
 left: 215px;
 top: 2268px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
