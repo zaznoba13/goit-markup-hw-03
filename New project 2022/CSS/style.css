@@ -1,3 +1,7 @@
+.body {
+    font-family: 'Roboto';
+font-style: normal;
+}
 .header  {
  
 width: 1600px;
@@ -34,9 +38,7 @@ background: #FFFFFF;
         left: 453px;
         top: 32px;
         
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
+            font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
@@ -54,9 +56,7 @@ background: #FFFFFF;
         left: 552px;
         top: 32px;
         
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
+                font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
@@ -75,9 +75,7 @@ background: #FFFFFF;
     left: 679px;
     top: 32px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+       font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -118,9 +116,7 @@ background: #FFFFFF;
     left: 1263px;
     top: 32px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+        font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -134,7 +130,7 @@ background: #FFFFFF;
       
      /* Rectangle 10 */
 
-    .bg_box {
+    .bg-box {
         position: absolute;
 width: 1170px;
 height: 1360px;
@@ -142,15 +138,13 @@ left: 215px;
 top: 174px;
      }
 
-     .button_box_active {
+     .button-box-active {
         position: absolute;
 width: 29px;
 height: 26px;
 left: 517px;
 top: 180px;
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
@@ -176,24 +170,15 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 border-radius: 4px;   
 }
     
-.button_box1 {
+.button-box1 {
     position: absolute;
-width: 84px;
-height: 26px;
-left: 598px;
-top: 180px;
+width: 128px;
+height: 38px;
+left: 576px;
+top: 174px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
+background: #F5F4FA;
+border-radius: 4px;
 }
 
 .button1 {
@@ -206,7 +191,7 @@ top: 174px;
 background: #F5F4FA;
 border-radius: 4px;
 }
-.button_box2 {
+.button-box2 {
     position: absolute;
     width: 145px;
     height: 38px;
@@ -218,7 +203,7 @@ border-radius: 4px;
 }
 
 .button2 {
-  position: absolute;
+    position: absolute;
 width: 101px;
 height: 26px;
 left: 734px;
@@ -237,7 +222,7 @@ letter-spacing: 0.03em;
 color: #212121;
 
 }
-.button_box3 {
+.button-box3 {
     position: absolute;
 width: 103px;
 height: 38px;
@@ -250,25 +235,26 @@ border-radius: 4px;
         
 .button3 {
     position: absolute;
-width: 59px;
-height: 26px;
-left: 887px;
-top: 180px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
+    width: 59px;
+    height: 26px;
+    left: 887px;
+    top: 180px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    
 
 }
-.button_box4 {
+.button-box4 {
     position: absolute;
 width: 130px;
 height: 38px;
@@ -297,6 +283,7 @@ letter-spacing: 0.03em;
 
 color: #212121;
 
+
 }
 
 .box1 {
@@ -318,8 +305,7 @@ height: 36px;
 left: 239px;
 top: 576px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -337,8 +323,7 @@ height: 30px;
 left: 239px;
 top: 616px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -368,8 +353,7 @@ border: 1px solid #EEEEEE;
     left: 639px;
     top: 576px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -387,8 +371,7 @@ border: 1px solid #EEEEEE;
     left: 639px;
     top: 616px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -420,8 +403,7 @@ border: 1px solid #EEEEEE;
     left: 1039px;
     top: 576px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -440,8 +422,7 @@ border: 1px solid #EEEEEE;
     left: 1039px;
     top: 616px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -471,8 +452,7 @@ border: 1px solid #EEEEEE;
     left: 239px;
     top: 1010px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -491,8 +471,7 @@ border: 1px solid #EEEEEE;
     left: 239px;
     top: 1050px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -523,8 +502,7 @@ border: 1px solid #EEEEEE;
     left: 639px;
     top: 1010px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -543,8 +521,7 @@ border: 1px solid #EEEEEE;
     left: 639px;
     top: 1050px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -575,8 +552,7 @@ border: 1px solid #EEEEEE;
     left: 1039px;
     top: 1010px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -595,8 +571,7 @@ border: 1px solid #EEEEEE;
     left: 1039px;
     top: 1050px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -628,8 +603,7 @@ height: 36px;
 left: 239px;
 top: 1444px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -648,8 +622,7 @@ height: 30px;
 left: 239px;
 top: 1484px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -681,8 +654,7 @@ height: 36px;
 left: 639px;
 top: 1444px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -700,8 +672,7 @@ height: 30px;
 left: 639px;
 top: 1484px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -730,8 +701,7 @@ height: 36px;
 left: 1039px;
 top: 1444px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
@@ -748,8 +718,7 @@ height: 30px;
 left: 1039px;
 top: 1484px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
@@ -759,7 +728,7 @@ letter-spacing: 0.03em;
 
 color: #757575;
  }
- .footer_bag {
+ .footer-bag {
     position: absolute;
 width: 1600px;
 height: 252px;
@@ -801,8 +770,6 @@ height: 21px;
 left: 215px;
 top: 1739px;
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -822,8 +789,7 @@ color: #FFFFFF;
     left: 215px;
     top: 1769px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -844,8 +810,7 @@ height: 21px;
 left: 215px;
 top: 1799px;
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
