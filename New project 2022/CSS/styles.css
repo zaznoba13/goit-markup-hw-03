@@ -180,35 +180,31 @@
 
 /* Наши преимущества */
 
-.flex.cotainer {
-  display: inline;
-  width: 1170px;
+.container-feature {
+  display: flex;
+  position: absolute;
+  width: 1200px;
+
   left: 215px;
   right: 215px;
-  top: 94px;
+  top: 770px;
+  justify-content: start;
+
+  flex-wrap: wrap;
 
   background-color: coral;
 }
-.title1 {
-  position: absolute;
+.container_text_1 {
   width: 270px;
-  left: 215px;
-  top: 774px;
-  margin: 0px;
-
+  padding: 10px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 
   color: #212121;
 }
 .text1 {
-  position: absolute;
   width: 270px;
-  left: 215px;
-  top: 800px;
-  margin: 0px;
 
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -216,25 +212,16 @@
   color: #757575;
 }
 .title2 {
-  position: absolute;
   width: 270px;
-  left: 515px;
-  top: 774px;
-  margin: 0px;
 
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 
   color: #212121;
 }
 .text2 {
-  position: absolute;
   width: 270px;
-  left: 515px;
-  top: 800px;
-  margin: 0px;
 
   line-height: 24px;
   /* or 171% */
@@ -244,25 +231,16 @@
   color: #757575;
 }
 .title3 {
-  position: absolute;
   width: 270px;
-  left: 815px;
-  top: 774px;
-  margin: 0px;
 
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 
   color: #212121;
 }
 .text3 {
-  position: absolute;
   width: 270px;
-  left: 815px;
-  top: 800px;
-  margin: 0px;
 
   line-height: 24px;
   /* or 171% */
@@ -272,25 +250,16 @@
   color: #757575;
 }
 .title4 {
-  position: absolute;
   width: 270px;
-  left: 1115px;
-  top: 774px;
-  margin: 0px;
 
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 
   color: #212121;
 }
 .text4 {
-  position: absolute;
   width: 270px;
-  left: 1115px;
-  top: 800px;
-  margin: 0px;
 
   line-height: 24px;
   /* or 171% */
