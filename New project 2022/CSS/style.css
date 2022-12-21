@@ -22,8 +22,8 @@
   left: 0px;
   top: 0px;
   margin-bottom: 94px;
-  background-color: var(--main-background-color)
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
+  background-color: var(--main-background-color);
 }
 
 .logo {
@@ -148,7 +148,7 @@
   height: 80px;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  background-color: var(--main-background-color)
+  background-color: var(--main-background-color);
 }
 /* element style */
 .bg-box {
@@ -158,7 +158,7 @@
   left: 215px;
   right: 215px;
   display: block;
-  background-color: var(--main-background-color)
+  background-color: var(--main-background-color);
 }
 .title {
   font-weight: 700;
