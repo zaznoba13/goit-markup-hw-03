@@ -180,12 +180,13 @@
 
 /* Наши преимущества */
 
-.feature {
+.flex.cotainer {
   display: inline;
   width: 1170px;
   left: 215px;
   right: 215px;
   top: 94px;
+
   background-color: coral;
 }
 .title1 {
@@ -193,6 +194,7 @@
   width: 270px;
   left: 215px;
   top: 774px;
+  margin: 0px;
 
   font-weight: 700;
   line-height: 16px;
@@ -206,6 +208,7 @@
   width: 270px;
   left: 215px;
   top: 800px;
+  margin: 0px;
 
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -215,9 +218,9 @@
 .title2 {
   position: absolute;
   width: 270px;
-
   left: 515px;
   top: 774px;
+  margin: 0px;
 
   font-weight: 700;
   line-height: 16px;
@@ -229,9 +232,9 @@
 .text2 {
   position: absolute;
   width: 270px;
-
   left: 515px;
   top: 800px;
+  margin: 0px;
 
   line-height: 24px;
   /* or 171% */
@@ -243,9 +246,9 @@
 .title3 {
   position: absolute;
   width: 270px;
-
   left: 815px;
   top: 774px;
+  margin: 0px;
 
   font-weight: 700;
   line-height: 16px;
@@ -257,9 +260,9 @@
 .text3 {
   position: absolute;
   width: 270px;
-
   left: 815px;
   top: 800px;
+  margin: 0px;
 
   line-height: 24px;
   /* or 171% */
@@ -271,9 +274,9 @@
 .title4 {
   position: absolute;
   width: 270px;
-
   left: 1115px;
   top: 774px;
+  margin: 0px;
 
   font-weight: 700;
   line-height: 16px;
@@ -285,9 +288,9 @@
 .text4 {
   position: absolute;
   width: 270px;
-
   left: 1115px;
   top: 800px;
+  margin: 0px;
 
   line-height: 24px;
   /* or 171% */
@@ -296,7 +299,7 @@
 
   color: #757575;
 }
-.flex-box {
+.section {
   display: inline-flex;
   position: absolute;
   width: 376px;
@@ -341,6 +344,9 @@
 
   background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
+
+/* Наша команда */
+
 .section_bag {
   position: absolute;
   width: 1600px;
@@ -348,7 +354,7 @@
   left: 0px;
   top: 1449px;
 
-  background: var(--third-background-color);
+  background-color: deeppink;
 }
 .our-team {
   position: absolute;
@@ -364,6 +370,10 @@
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+.bag {
+  position: absolute;
+  width: 1600px;
 }
 .bag1 {
   position: absolute;
