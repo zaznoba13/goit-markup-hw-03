@@ -1,720 +1,675 @@
 /* header */
+:root {
+  --firste-background-color: #2f303a;
+  --second-background-color: #ffffff;
+  --third-background-color: #f5f4fa;
+  --hover-focus-color: crimson;
+}
 .body {
-    font-family: 'Roboto';
-font-style: normal;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  width: 1600px;
 }
 .header {
-position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
+  position: absolute;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  width: 1600px;
+  background-color: var(--second-background-color);
 }
 .logo {
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: black;
-text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 .accent {
-    color: #2196F3;
+  color: #2196f3;
 }
 .studio {
-    position: absolute;
-    width: 49px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    
-    color: #2196F3;
-    text-decoration: none;
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+  text-decoration: none;
 }
-.studio:hover, :focus {
-    color: crimson;
+.studio:hover,
+:focus {
+  color: var(--hover-focus-color);
 }
-.portfolio { 
-    position: absolute;
-    width: 77px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
-    
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    
-    color: #212121;
-    text-decoration: none;
+.portfolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+  text-decoration: none;
 }
-.portfolio:hover, :focus {
-    color: crimson;
+.portfolio:hover,
+:focus {
+  color: var(--hover-focus-color);
 }
 .contact {
-    position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-text-decoration: none;
-
+  color: #212121;
+  text-decoration: none;
 }
-.contact:hover, :focus {
-    color: crimson;
+.contact:hover,
+:focus {
+  color: var(--hover-focus-color);
 }
 .email {
-    position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
 
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  font-weight: 500;
 
-color: #2196F3;
-text-decoration: none;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
+  color: #2196f3;
+  text-decoration: none;
 }
-.email:hover, :focus {
-    color: crimson;
+.email:hover,
+:focus {
+  color: var(--hover-focus-color);
 }
 
 .telephon {
-    position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
 
+  font-weight: 500;
 
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-color: #757575;
-text-decoration: none;
+  color: #757575;
+  text-decoration: none;
 }
-.telephon:hover, :focus {
-    color: crimson;
+.telephon:hover,
+:focus {
+  color: var(--hover-focus-color);
 }
 /* main */
 .bg {
-    position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 
-background: #2F303A;
+  background: var(--firste-background-color);
 }
 .title {
-  
-    position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
 
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
 
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-color: #FFFFFF;
-
+  color: #ffffff;
 }
 .button {
-    position: absolute;
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
-cursor:pointer;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
-    background-color: #188ce8;
-    color:     #FFFFFF; 
-  
+  background-color: #188ce8;
+  color: #ffffff;
 }
 
 /* Наши преимущества */
 
+.feature {
+  display: inline;
+  width: 1170px;
+  left: 215px;
+  right: 215px;
+  top: 94px;
+  background-color: coral;
+}
 .title1 {
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 215px;
-top: 774px;
+  position: absolute;
+  width: 270px;
+  left: 215px;
+  top: 774px;
 
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
+  color: #212121;
 }
 .text1 {
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 215px;
-top: 800px;
+  position: absolute;
+  width: 270px;
+  left: 215px;
+  top: 800px;
 
+  line-height: 24px;
+  letter-spacing: 0.03em;
 
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: #757575;
-
+  color: #757575;
 }
 .title2 {
-    position: absolute;
-    width: 270px;
-    height: 16px;
-    left: 515px;
-    top: 774px;
-    
-   
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-    color: #212121;
-   }
+  position: absolute;
+  width: 270px;
+
+  left: 515px;
+  top: 774px;
+
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
 .text2 {
-    position: absolute;
-    width: 270px;
-    height: 75px;
-    left: 515px;
-    top: 800px;
-    
-   
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
-    letter-spacing: 0.03em;
-    
-    color: #757575;
-    }
+  position: absolute;
+  width: 270px;
+
+  left: 515px;
+  top: 800px;
+
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 .title3 {
-        position: absolute;
-        width: 270px;
-        height: 16px;
-        left: 815px;
-        top: 774px;
-        
-        
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        
-        color: #212121;
-              
-    }
+  position: absolute;
+  width: 270px;
+
+  left: 815px;
+  top: 774px;
+
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
 .text3 {
-    position: absolute;
-    width: 270px;
-    height: 75px;
-    left: 815px;
-    top: 800px;
-    
-    
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
-    letter-spacing: 0.03em;
-    
-    color: #757575;
-    
- }
+  position: absolute;
+  width: 270px;
+
+  left: 815px;
+  top: 800px;
+
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 .title4 {
-    position: absolute;
-    width: 270px;
-    height: 16px;
-    left: 1115px;
-    top: 774px;
-    
-    
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-    color: #212121;
-    
- }
+  position: absolute;
+  width: 270px;
+
+  left: 1115px;
+  top: 774px;
+
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
 .text4 {
-    position: absolute;
-    width: 270px;
-    height: 75px;
-    left: 1115px;
-    top: 800px;
-    
-   
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
-    letter-spacing: 0.03em;
-    
-    color: #757575;
- }
- .about-our-job-block {
-     position: absolute;
-width: 376px;
-height: 42px;
-left: 612px;
-top: 969px;
+  position: absolute;
+  width: 270px;
 
+  left: 1115px;
+  top: 800px;
 
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
+  line-height: 24px;
+  /* or 171% */
 
-color: #212121;
+  letter-spacing: 0.03em;
 
- }
-  .box1 {
-   position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1061px;
+  color: #757575;
+}
+.flex-box {
+  display: inline-flex;
+  position: absolute;
+  width: 376px;
 
-background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
-mix-blend-mode: normal;
- }
- .box2 {
-position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1061px;
+  left: 612px;
+  top: 969px;
 
-background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
- }
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  background-color: darkorange;
+}
+.box1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+
+  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+  mix-blend-mode: normal;
+}
+.box2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+
+  background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
 .box3 {
-    position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1061px;
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
 
-background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+  background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
 .section_bag {
-   
-    position: absolute;
-width: 1600px;
-height: 648px;
-left: 0px;
-top: 1449px;
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
 
-background: #F5F4FA;
+  background: var(--third-background-color);
 }
 .our-team {
-    position: absolute;
-width: 264px;
-height: 42px;
-left: 668px;
-top: 1543px;
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1543px;
 
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
+  color: #212121;
 }
 .bag1 {
-    position: absolute;
-width: 270px;
-height: 368px;
-left: 215px;
-top: 1635px;
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
 
-background: #FFFFFF;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .photo1 {
-    position: absolute;
-width: 270px;
-height: 260px;
-left: 215px;
-top: 1635px;
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 215px;
+  top: 1635px;
 
-background: url(4853.jpg);
-border-radius: 0px;
+  background: url(4853.jpg);
+  border-radius: 0px;
 }
 .name1 {
-    position: absolute;
-width: 151px;
-height: 19px;
-left: 275px;
-top: 1925px;
+  position: absolute;
+  width: 151px;
+  height: 19px;
+  left: 275px;
+  top: 1925px;
 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
 
-font-weight: 500;
-font-size: 16px;
-line-height: 18.75px;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
+  color: #212121;
 }
 .text_box1 {
-    position: absolute;
-width: 130px;
-height: 19px;
-left: 285px;
-top: 1954px;
+  position: absolute;
+  width: 130px;
+  height: 19px;
+  left: 285px;
+  top: 1954px;
 
+  font-size: 16px;
+  line-height: 18.75px;
 
-font-weight: 400;
-font-size: 16px;
-line-height: 18.75px;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #757575;
+  color: #757575;
 }
 .bag2 {
-    position: absolute;
-width: 270px;
-height: 368px;
-left: 515px;
-top: 1635px;
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1635px;
 
-background: #FFFFFF;
-/* material shadow v1 */
+  background: #ffffff;
+  /* material shadow v1 */
 
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .photo2 {
-    position: absolute;
-width: 270px;
-height: 260px;
-left: 515px;
-top: 1635px;
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 515px;
+  top: 1635px;
 
-background: url(5844.jpg);
-border-radius: 0px;
+  background: url(5844.jpg);
+  border-radius: 0px;
 }
 .name2 {
-    position: absolute;
-    width: 109px;
-    height: 19px;
-    left: 596px;
-    top: 1925px;
-    
-    
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: #212121;
-    
+  position: absolute;
+  width: 109px;
+  height: 19px;
+  left: 596px;
+  top: 1925px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .text_box2 {
-    position: absolute;
-width: 147px;
-height: 19px;
-left: 577px;
-top: 1954px;
+  position: absolute;
+  width: 147px;
+  height: 19px;
+  left: 577px;
+  top: 1954px;
 
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: #757575;
+  color: #757575;
 }
 
 .bag3 {
-    position: absolute;
-width: 270px;
-height: 368px;
-left: 815px;
-top: 1635px;
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 1635px;
 
-background: #FFFFFF;
-/* material shadow v1 */
+  background: #ffffff;
+  /* material shadow v1 */
 
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .photo3 {
-    position: absolute;
-width: 270px;
-height: 260px;
-left: 815px;
-top: 1635px;
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 815px;
+  top: 1635px;
 
-background: url(16166.jpg);
-border-radius: 0px;
+  background: url(16166.jpg);
+  border-radius: 0px;
 }
 .name3 {
-    position: absolute;
-    width: 137px;
-    height: 19px;
-    left: 882px;
-    top: 1925px;
-    
-    
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: #212121;
-    
+  position: absolute;
+  width: 137px;
+  height: 19px;
+  left: 882px;
+  top: 1925px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 .text_box3 {
-    position: absolute;
-    width: 76px;
-    height: 19px;
-    left: 912px;
-    top: 1954px;
-    
-    
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: #757575;
-    
+  position: absolute;
+  width: 76px;
+  height: 19px;
+  left: 912px;
+  top: 1954px;
+
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 .bag4 {
-        position: absolute;
-width: 270px;
-height: 368px;
-left: 1115px;
-top: 1635px;
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1635px;
 
-background: #FFFFFF;
-/* material shadow v1 */
+  background: #ffffff;
+  /* material shadow v1 */
 
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .photo4 {
-    position: absolute;
-width: 270px;
-height: 260px;
-left: 1115px;
-top: 1635px;
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 1115px;
+  top: 1635px;
 
-background: url(2968.jpg);
-border-radius: 0px;
+  background: url(2968.jpg);
+  border-radius: 0px;
 }
 .name4 {
-    position: absolute;
-width: 134px;
-height: 19px;
-left: 1183px;
-top: 1925px;
+  position: absolute;
+  width: 134px;
+  height: 19px;
+  left: 1183px;
+  top: 1925px;
 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
 
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
 
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
+  color: #212121;
 }
 .text_box4 {
-    position: absolute;
-width: 87px;
-height: 19px;
-left: 1207px;
-top: 1954px;
+  position: absolute;
+  width: 87px;
+  height: 19px;
+  left: 1207px;
+  top: 1954px;
 
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
 
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
 
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #757575;
+  color: #757575;
 }
 
 .footer_bag {
-    position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
 
-background: #2F303A;
+  background: #2f303a;
 }
 
 .logo2 {
-    position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 2157px;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #2196F3;
-
+  color: #2196f3;
 }
 .accent2 {
-    color: #FFFFFF;
-
+  color: #ffffff;
 }
 .physical-adress {
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2208px;
-    
-    
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
-    letter-spacing: 0.03em;
-    
-    color: #FFFFFF;
-  }
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
 
 .mail-to {
-    position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2238px;
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2238px;
 
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+  line-height: 24px;
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
-
+  color: rgba(255, 255, 255, 0.6);
 }
-.mail-to:hover, :focus {
-    color: tomato;
+.mail-to:hover,
+:focus {
+  color: var(--hover-focus-color);
 }
 .tel {
-    position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2268px;
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2268px;
 
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+  line-height: 24px;
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
-.tel:hover, :focus {
-    color: tomato;
+.tel:hover,
+:focus {
+  color: var(--hover-focus-color);
 }

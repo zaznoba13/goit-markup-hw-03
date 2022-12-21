@@ -8,18 +8,22 @@
 
 .body {
   font-family: "Roboto";
-  font-style: 400;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
+  width: 1600px;
 
   background-color: var(--main-background-color);
 }
+
 .header {
   width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
-  background: var(--main-background-color);
+  margin-bottom: 94px;
+  background-color: var(--main-background-color)
+  border: 1px solid #ECECEC;
 }
 
 .logo {
@@ -133,60 +137,52 @@
 }
 
 /* main */
+/* Portfolio*/
 
+.filter {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: var(--main-background-color)
+}
+/* element style */
 .bg-box {
   position: absolute;
   width: 1170px;
   height: 1360px;
   left: 215px;
-  top: 174px;
+  right: 215px;
+  display: block;
+  background-color: var(--main-background-color)
 }
-.button {
-  position: absolute;
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  width: 322px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.filter {
   font-size: 16px;
   line-height: 26px;
-
   text-align: center;
+  display: inline-block;
+  width: 100%;
+
+  justify-content: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-}
-.button1 {
-  width: 73px;
-  height: 38px;
-  left: 495px;
-  top: 174px;
-
-  background: #2196f3;
-}
-.button2 {
-  width: 84px;
-  height: 26px;
-  left: 598px;
-  top: 180px;
-}
-.button3 {
-  width: 101px;
-  height: 26px;
-  left: 734px;
-  top: 180px;
-
-  font-size: 16px;
-  line-height: 26px;
-}
-.button4 {
-  width: 59px;
-  height: 26px;
-  left: 887px;
-  top: 180px;
-
-  font-size: 16px;
-  line-height: 26px;
-}
-.button5 {
-  width: 86px;
-  height: 26px;
-  left: 998px;
-  top: 180px;
 }
 
 .box1 {
@@ -202,27 +198,17 @@
   border: 1px solid #eeeeee;
 }
 
-.title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-}
-
 .title1 {
   position: absolute;
-  width: 322px;
+
   height: 36px;
   left: 239px;
   top: 576px;
+
   letter-spacing: 0.06em;
   color: var(--main-color);
 }
 
-.text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-}
 .text1 {
   position: absolute;
   width: 322px;
@@ -247,7 +233,7 @@
 }
 .title2 {
   position: absolute;
-  width: 322px;
+
   height: 36px;
   left: 639px;
   top: 576px;
@@ -279,7 +265,7 @@
 
 .title3 {
   position: absolute;
-  width: 322px;
+
   height: 36px;
   left: 1039px;
   top: 576px;
@@ -312,7 +298,7 @@
 }
 .title4 {
   position: absolute;
-  width: 322px;
+
   height: 36px;
   left: 239px;
   top: 1010px;
@@ -345,7 +331,7 @@
 }
 .title5 {
   position: absolute;
-  width: 322px;
+
   height: 36px;
   left: 639px;
   top: 1010px;
@@ -379,7 +365,7 @@
 }
 .title6 {
   position: absolute;
-  width: 322px;
+
   height: 36px;
   left: 1039px;
   top: 1010px;
@@ -412,7 +398,7 @@
 }
 .title7 {
   position: absolute;
-  width: 322px;
+
   height: 36px;
   left: 239px;
   top: 1444px;
@@ -446,7 +432,7 @@
 }
 .title8 {
   position: absolute;
-  width: 322px;
+
   height: 36px;
   left: 639px;
   top: 1444px;
@@ -480,7 +466,7 @@
 }
 .title9 {
   position: absolute;
-  width: 322px;
+
   height: 36px;
   left: 1039px;
   top: 1444px;
@@ -504,6 +490,7 @@
   position: absolute;
   width: 1600px;
   height: 252px;
+  display: block;
   left: 0px;
   top: 1628px;
 
@@ -522,7 +509,6 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
 
   letter-spacing: 0.03em;
 
