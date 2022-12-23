@@ -183,12 +183,12 @@
 .container-feature {
   display: flex;
   position: absolute;
-  width: 1200px;
+  width: 1170px;
 
   left: 215px;
   right: 215px;
   top: 770px;
-  justify-content: start;
+  justify-content: space-evenly;
 
   flex-wrap: wrap;
 
@@ -205,15 +205,16 @@
 }
 .text1 {
   width: 270px;
+  font-weight: 400;
 
   line-height: 24px;
   letter-spacing: 0.03em;
 
   color: #757575;
 }
-.title2 {
+.container_text_2 {
   width: 270px;
-
+  padding: 10px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -222,17 +223,16 @@
 }
 .text2 {
   width: 270px;
-
+  font-weight: 400;
   line-height: 24px;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: #757575;
 }
-.title3 {
+.container_text_3 {
   width: 270px;
-
+  padding: 10px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -241,17 +241,16 @@
 }
 .text3 {
   width: 270px;
-
+  font-weight: 400;
   line-height: 24px;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: #757575;
 }
-.title4 {
+.container_text_4 {
   width: 270px;
-
+  padding: 10px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -260,58 +259,54 @@
 }
 .text4 {
   width: 270px;
-
+  font-weight: 400;
   line-height: 24px;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: #757575;
 }
-.section {
-  display: inline-flex;
-  position: absolute;
-  width: 376px;
 
-  left: 612px;
+.container-title {
+  position: absolute;
   top: 969px;
+  width: 696px;
+  left: 452px;
+  text-align: center;
 
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  text-align: center;
+
   letter-spacing: 0.03em;
 
   color: #212121;
-  background-color: darkorange;
 }
-.box1 {
+.container-flex {
+  display: flex;
   position: absolute;
+  width: 1170px;
+  left: 215px;
+  right: 215px;
+  top: 1061px;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+
+  background-color: rgb(255, 0, 217);
+}
+
+.box1 {
   width: 370px;
   height: 294px;
-  left: 215px;
-  top: 1061px;
-
-  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
-  mix-blend-mode: normal;
 }
 .box2 {
-  position: absolute;
   width: 370px;
   height: 294px;
-  left: 615px;
-  top: 1061px;
-
-  background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
 }
 .box3 {
-  position: absolute;
   width: 370px;
   height: 294px;
-  left: 1015px;
-  top: 1061px;
-
-  background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
 
 /* Наша команда */
@@ -363,7 +358,6 @@
   left: 215px;
   top: 1635px;
 
-  background: url(4853.jpg);
   border-radius: 0px;
 }
 .name1 {
@@ -418,7 +412,6 @@
   left: 515px;
   top: 1635px;
 
-  background: url(5844.jpg);
   border-radius: 0px;
 }
 .name2 {
@@ -478,7 +471,6 @@
   left: 815px;
   top: 1635px;
 
-  background: url(16166.jpg);
   border-radius: 0px;
 }
 .name3 {
@@ -535,7 +527,6 @@
   left: 1115px;
   top: 1635px;
 
-  background: url(2968.jpg);
   border-radius: 0px;
 }
 .name4 {
