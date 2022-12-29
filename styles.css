@@ -1,0 +1,432 @@
+/* header */
+:root {
+  --firste-background-color: #2f303a;
+  --second-background-color: #ffffff;
+  --third-background-color: #f5f4fa;
+  --hover-focus-color: crimson;
+}
+.body {
+  width: 1200px;
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+}
+.header {
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #c9e818;
+}
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: black;
+  text-decoration: none;
+}
+.accent {
+  color: #2196f3;
+}
+.studio {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+  text-decoration: none;
+}
+.studio:hover,
+:focus {
+  color: var(--hover-focus-color);
+}
+.portfolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+  text-decoration: none;
+}
+.portfolio:hover,
+:focus {
+  color: var(--hover-focus-color);
+}
+.contact {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+  text-decoration: none;
+}
+.contact:hover,
+:focus {
+  color: var(--hover-focus-color);
+}
+.email {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-weight: 500;
+
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+  text-decoration: none;
+}
+.email:hover,
+:focus {
+  color: var(--hover-focus-color);
+}
+
+.telephon {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-weight: 500;
+
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+  text-decoration: none;
+}
+.telephon:hover,
+:focus {
+  color: var(--hover-focus-color);
+}
+/* main */
+.container-bg {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  top: 80px;
+
+  background: var(--firste-background-color);
+}
+.title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  margin-bottom: 200px;
+  cursor: pointer;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+  color: #ffffff;
+}
+
+/* Наши преимущества */
+.container-feature {
+  display: flex;
+  position: absolute;
+  width: 1200px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+
+  left: 215px;
+  right: 215px;
+  top: 770px;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+
+  background-color: coral;
+}
+.container_text_1,
+.container_text_2,
+.container_text_3,
+.container_text_4 {
+  width: 270px;
+  padding: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.text1,
+.text2,
+.text3,
+.text4 {
+  width: 270px;
+  font-weight: 400;
+
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Чем мы занимаемся */
+.container-title {
+  position: absolute;
+  top: 969px;
+  width: 1200px;
+  left: 215px;
+  text-align: center;
+  padding-bottom: 1%;
+  margin-top: 11%;
+
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  background-color: #188ce8;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.container-flex {
+  display: flex;
+  position: absolute;
+
+  width: 1200px;
+  padding-top: 72px;
+  padding: bottom 72px;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+
+  background-color: rgb(255, 0, 217);
+}
+.box1,
+.box2,
+.box3 {
+  width: 370px;
+  height: 294px;
+}
+
+/* Наша команда */
+
+.our-team {
+  position: absolute;
+  width: 1200px;
+
+  left: 215px;
+  top: 1543px;
+  padding-top: 72px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  background-color: blueviolet;
+}
+.team-flex {
+  display: flex;
+  position: absolute;
+  width: 1200px;
+
+  padding: 1%;
+
+  background-color: deeppink;
+}
+.bag1,
+.bag2,
+.bag3,
+.bag4 {
+  width: 270px;
+  height: 368px;
+  margin-right: 32px;
+  list-style: none;
+
+  padding: 0px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.item.photo1,
+.item.photo2,
+.item.photo3,
+.item.photo4 {
+  width: 270px;
+
+  border-radius: 0px;
+}
+.name1,
+.name2,
+.name3,
+.name4 {
+  position: absolute;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  width: 270px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+  list-style: none;
+
+  color: #212121;
+}
+.text_bag1,
+.text_bag2,
+.text_bag3,
+.text_bag4 {
+  position: absolute;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  width: 270px;
+  text-align: center;
+
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+  list-style: none;
+
+  color: #757575;
+}
+
+.page-footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  padding-top: 72px;
+
+  background: #2f303a;
+}
+.logo2 {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.accent2 {
+  color: #ffffff;
+}
+.physical-adress {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.mail-to {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2238px;
+
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.mail-to:hover,
+:focus {
+  color: var(--hover-focus-color);
+}
+.tel {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2268px;
+
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel:hover,
+:focus {
+  color: var(--hover-focus-color);
+}
